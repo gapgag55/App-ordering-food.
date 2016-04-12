@@ -1,0 +1,18 @@
+<ion-view view-title="เลือกโต๊ะอาหาร" ng-controller="NewCtrl"  align-title="center">
+	<ion-header-bar align-title="center" class="bar-positive">
+		<h1 class="title">เลือกโต๊ะอาหาร</h1>
+	</ion-header-bar>
+	<ion-content >
+		<label class="item item-input item-select" style="margin:55% 10%; padding: 10%;">
+			<div class="input-label">
+				เลือกโต๊ะ
+			</div>
+			<select ng-init="table = options[2]"
+				ng-model="$parent.table"
+				ng-change="addTable($parent.table)"
+				ng-options="num for num in nums">
+			</select>
+
+		</label>
+	</ion-content>
+</ion-view>

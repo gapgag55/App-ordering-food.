@@ -1,0 +1,19 @@
+<ion-view view-title="Login">
+    <ion-content ng-controller="LoginCtrl" class="login" >
+
+        <img src="img/logo.png" alt="">
+        <form ng-submit="login()">
+            <div class="list list-inset">
+                <label for="" class="item item-input">
+                    <span class="ion-email"></span><input type="email" placeholder="Email address" ng-model="email">
+                </label>
+                <label for="" class="item item-input">
+                    <span class="ion-locked"></span><input type="password" placeholder="Password" ng-model="password">
+                </label>
+            </div>
+            <div class="padding">
+                <button class="button button-full button-positive" type="submit">LOGIN</button>
+            </div>
+        </form>
+    </ion-content>
+</ion-view>

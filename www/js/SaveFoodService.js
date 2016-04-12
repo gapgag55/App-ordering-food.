@@ -1,0 +1,1 @@
+app.service("saveFood",[function(){var o=this;o.order={},o.order.food=[],o.order.table=0,o.setTable=function(e){o.order.table=e},o.getTable=function(e){return o.order.table},o.setFood=function(e){o.order.food=e},o.getFood=function(){return o.order.food},o.setFoods=function(e){o.order=e},o.getFoods=function(){return o.order}}]);

@@ -1,0 +1,28 @@
+<ion-view view-title="เลือกประเภทอาหาร" ng-controller="NewCtrl" align-title="center">
+  <ion-header-bar align-title="center" class="bar-positive">
+    <div class="buttons">
+      <button class="button" ng-click="goBack()">
+        <i class="ion-chevron-left"></i>
+        Back
+      </button>
+    </div>
+    <h1 class="title">เลือกประเภทอาหาร</h1>
+  </ion-header-bar>
+  <ion-content>
+    <div class="bar bar-header item-input-inset" style="margin-bottom: -1px;">
+      <label class="item-input-wrapper">
+        <i class="icon ion-ios-search placeholder-icon"></i>
+        <input type="search" placeholder="ค้นหาประเภทอาหาร" ng-model="searchCat">
+      </label>
+      <a class="button button-clear" ng-click="searchCat = ''">
+        Cancel
+      </a>
+    </div>
+    <div class="list">
+      <a class="item" href="#/order/{{ ::cat }}" collection-repeat="cat in listCat | filter:searchCat">
+        {{ ::cat }}
+        <span class="ion-chevron-right" style="float:right"></span>
+      </a>
+    </div>
+  </ion-content>
+</ion-view>

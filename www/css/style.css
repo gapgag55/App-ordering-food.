@@ -1,0 +1,107 @@
+/* Empty. Add your own CSS if you like */
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+:-moz-placeholder {
+  color: #fff;
+}
+::-moz-placeholder {
+  color: #fff;
+}
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"] {
+  padding-left:5px !important;
+}
+
+.back {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+}
+ion-header-bar {
+  background-color: #1976D2 !important;
+  color: #fff;
+}
+.bar .button.back-button {
+  color: #fff
+}
+.left {
+  text-align: center;
+}
+.login {
+  background: url('../img/bg.png') no-repeat center center fixed;
+  /*background-color: #077fcb;*/
+  background-size: cover;
+  padding: 80px 30px !important;
+  text-align: center;
+  position: fixed;
+}
+.login img {
+  width: 60%;
+  margin-bottom: 60px;
+}
+.login .list {
+  background-color: #fff !important;
+  border-radius: 0;
+}
+.login .item-input {
+  padding: 0 10px !important;
+}
+.login hr {
+  border: 1px solid #BDBDBD;
+}
+.login .ion-email, .login .ion-locked {
+  font-size: 35px;
+  color: #BDBDBD;
+}
+.login .button.button-full {
+  margin-top: 0;
+}
+.login .padding {
+  padding-top: 0;
+}
+.login input, .login .list-inset, .login .item {
+  background-color: transparent;
+  border: 0;
+  margin-bottom: 0;
+}
+.login .item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding-left: 0;
+  padding-right: 0;
+}
+.login span {
+  margin-right: 20px;
+}
+.login input {
+  font-size: 100%;
+  color: #BDBDBD !important;
+  padding-right: 0 !important;
+}
+.login input::-webkit-input-placeholder {
+  color: #BDBDBD;
+  line-height: 1.3;
+}
+.login button {
+  background-color: #1976D2 !important;
+  border: 0;
+  padding: 10px;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "order",
+  "app_id": "bcb12ad8",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}
